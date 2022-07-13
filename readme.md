@@ -70,7 +70,18 @@ readme
   
   <details markdown="1">
   <summary>Glossary ✔️</summary>
-  - [ ] what
+   <ul>
+      <li>kV</li>
+      <p>Là đại lượng được quy ước: X Kv nghĩa là động cơ sẽ xoay với tốc độ X rpm dưới điện áp 1 volt.</p>
+      <img src=https://user-images.githubusercontent.com/103067723/178641065-6ecfea47-c529-4dcd-8776-d30d61a64564.png> <br>
+      <img src=https://user-images.githubusercontent.com/103067723/178641126-1db040d0-3a88-4e04-ad0b-d8f3962e0656.png>
+      <p>Nhìn chung, với Kv càng thấp thì động cơ sẽ tạo torque càng cao.</p>
+     
+      <li>Motor size</li>
+      <p>Ký hiệu kích thước của stator, được viết dưới dạng XXYY, trong đó XX là bề rộng của stator, còn YY là chiều cao
+          YY càng cao, drone sẽ có top speed cao hơn, và điều khiển ở tốc độ thấp khó khăn hơn
+          XX càng cao, drone sẽ có top speed thấp hơn, và điều khiển ở tốc độ thấp dễ dàng hơn</p>
+    </ul> 
     
   </details>
   
