@@ -31,7 +31,7 @@ readme
 </details>
 
 <details>
-  <summary>Càng đáp</summary>
+  <summary><h3>Càng đáp</h3></summary>
   
   <details>
   <summary>Tiêu chí ❌</summary>
