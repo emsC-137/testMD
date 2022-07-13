@@ -48,3 +48,19 @@ readme
   Soon...
   </details>
 </details>
+
+<details>
+  <summary><h3>Flight controller</h3></summary>
+  
+  <details>
+  <summary>Yêu cầu tính năng ❌</summary>
+  Soon...
+  </details>
+  
+  <details>
+  <summary>Thông số của FC ❌</summary>
+  Soon...
+  </details>
+  
+
+</details>
