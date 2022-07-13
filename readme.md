@@ -228,19 +228,15 @@ readme
   <summary><h3>Pin</h3></summary>
   
   <details> 
-  <summary>on ✔️</summary>
-  Soon...
+  <summary>Tính Pin</summary>
+    <p>Dựa theo bảng motor, ta có thể chọn 3S/4S với mAh từ 1000-1300mA</p>
+    <p>Chọn pin 4S-1550mA-120C</p>
+    <p>Motor dùng 32A *4 = 132A</p>
+    <p>132/1550 = 85.16C</p>
+    <p>-> số C phải lớn hơn 85.16, pin hiện tại C=120</p>
+    <p>-> pin đã chọn phù hợp</p>
   </details>
   
-  <details>
-  <summary>Soon ✔️</summary>
-  Soon...
-  </details>
-  
-  <details>
-  <summary>Soo ❌</summary>
-  Soon...
-  </details>
 </details>
 
 <details>
