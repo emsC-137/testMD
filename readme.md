@@ -30,4 +30,21 @@ readme
 
 </details>
 
-
+<details>
+  <summary>Càng đáp</summary>
+  
+  <details>
+  <summary>Tiêu chí ❌</summary>
+  Soon...
+  </details>
+  
+  <details>
+  <summary>Thiết kế ❌</summary>
+  Soon...
+  </details>
+  
+  <details>
+  <summary>Kiểm tra độ cứng vững ❌</summary>
+  Soon...
+  </details>
+</details>
