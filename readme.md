@@ -72,9 +72,9 @@ readme
   <summary>Glossary ✔️</summary>
     <summary> kV</summary>
     <p>Là đại lượng được quy ước: X Kv nghĩa là động cơ sẽ xoay với tốc độ X rpm dưới điện áp 1 volt.</p>
-    ![image](https://user-images.githubusercontent.com/103067723/178641065-6ecfea47-c529-4dcd-8776-d30d61a64564.png)
-    ![image](https://user-images.githubusercontent.com/103067723/178641126-1db040d0-3a88-4e04-ad0b-d8f3962e0656.png)
-    !- [x] yo wtf
+    <img src=https://user-images.githubusercontent.com/103067723/178641065-6ecfea47-c529-4dcd-8776-d30d61a64564.png>
+    <img src=https://user-images.githubusercontent.com/103067723/178641126-1db040d0-3a88-4e04-ad0b-d8f3962e0656.png>
+    
     </details>
   </details>
   
