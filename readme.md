@@ -106,3 +106,136 @@ readme
       <p> </p>
   </ul> 
 </details>
+
+<details>
+  <summary><h3>ESC</h3></summary>
+  
+  <details>
+  <summary>Cách chọn ESC ✔️</summary>
+  Soon...
+  </details>
+  
+  <details>
+  <summary>Giao thức Dshot ✔️</summary>
+  Soon...
+  </details>
+  
+  <details>
+  <summary>Soo ❌</summary>
+  Soon...
+  </details>
+</details>
+
+<details>
+  <summary><h3>GPS</h3></summary>
+  
+  <details>
+  <summary>Soon ✔️</summary>
+  Soon...
+  </details>
+  
+  <details>
+  <summary>Soon ✔️</summary>
+  Soon...
+  </details>
+  
+  <details>
+  <summary>Soo ❌</summary>
+  Soon...
+  </details>
+</details>
+
+<details>
+  <summary><h3>TX-RX</h3></summary>
+  
+  <details>
+  <summary>Soon ✔️</summary>
+  Soon...
+  </details>
+  
+  <details>
+  <summary>Soon ✔️</summary>
+  Soon...
+  </details>
+  
+  <details>
+  <summary>Soo ❌</summary>
+  Soon...
+  </details>
+</details>
+
+<details>
+  <summary><h3>Pin</h3></summary>
+  
+  <details>
+  <summary>Soon ✔️</summary>
+  Soon...
+  </details>
+  
+  <details>
+  <summary>Soon ✔️</summary>
+  Soon...
+  </details>
+  
+  <details>
+  <summary>Soo ❌</summary>
+  Soon...
+  </details>
+</details>
+
+<details>
+  <summary><h3>Tỉ số lực đẩy: Khối lượng</h3></summary>
+  
+  <details>
+  <summary>Soon ✔️</summary>
+  Soon...
+  </details>
+  
+  <details>
+  <summary>Soon ✔️</summary>
+  Soon...
+  </details>
+  
+  <details>
+  <summary>Soo ❌</summary>
+  Soon...
+  </details>
+</details>
+
+<details>
+  <summary><h3>Set up trong ardupilot</h3></summary>
+  
+  <details>
+  <summary>Soon ✔️</summary>
+  Soon...
+  </details>
+  
+  <details>
+  <summary>Soon ✔️</summary>
+  Soon...
+  </details>
+  
+  <details>
+  <summary>Soo ❌</summary>
+  Soon...
+  </details>
+</details>
+
+<details>
+  <summary><h3>Chỉnh PID lần đầu</h3></summary>
+  
+  <details>
+  <summary>Soon ✔️</summary>
+  Soon...
+  </details>
+  
+  <details>
+  <summary>Soon ✔️</summary>
+  Soon...
+  </details>
+  
+  <details>
+  <summary>Soo ❌</summary>
+  Soon...
+  </details>
+</details>
