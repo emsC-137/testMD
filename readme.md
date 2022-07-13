@@ -181,10 +181,6 @@ readme
     <p>-> Tính giá trị của bit = cách đo từ rising edge và dừng lại ở falling edge</p>
   </details>
   
-  <details>
-  <summary>Soo ❌</summary>
-  Soon...
-  </details>
 </details>
 
 <details>
@@ -210,26 +206,29 @@ readme
   <summary><h3>TX-RX</h3></summary>
   
   <details>
-  <summary>Soon ✔️</summary>
-  Soon...
+  <summary>Yêu cầu tính năng</summary>
+    <ul>
+      <li>Kết nối được với FC</li>
+      <li>Có nhiều channel cho những mode khác nhau</li>
+    </ul>
   </details>
   
   <details>
-  <summary>Soon ✔️</summary>
-  Soon...
+  <summary>Thông số của TX-RX</summary>
+    <p>TX-RX: <a href="https://www.multi-module.org/using-the-module/protocol-details/flysky-afhds2a">FlySky AFHDS 2A</a></p>
+    <ul>
+      <li>Kết nối với FC bằng SBUS</li>
+      <li>Có 10 channel</li>
+    </ul>
   </details>
   
-  <details>
-  <summary>Soo ❌</summary>
-  Soon...
-  </details>
 </details>
 
 <details>
   <summary><h3>Pin</h3></summary>
   
-  <details>
-  <summary>Soon ✔️</summary>
+  <details> 
+  <summary>on ✔️</summary>
   Soon...
   </details>
   
