@@ -158,7 +158,7 @@
       <li>Dshot150</li>
     </ul>
     <p> 1 package của DShot gồm 16 bit: </p>
-    <img src=https://user-images.githubusercontent.com/103067723/178780958-00fbdb66-c84f-41a7-b998-ca6673fd022a.png>
+    <img src=https://user-images.githubusercontent.com/103067723/178782306-62bc9602-e88c-4b25-9f95-39692852441e.png>
 
     <ul>
       <li>11 bit cho giá trị throttle (2^11 = 2048)</li>
