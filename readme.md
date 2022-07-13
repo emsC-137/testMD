@@ -85,8 +85,9 @@ readme
   </details>
   
   <details>
-  <summary>Thiết kế ❌</summary>
-  Soon...
+  <summary>Chọn motor ❌</summary>
+  <img src=https://user-images.githubusercontent.com/103067723/178643994-f6fc1446-67d6-4324-bfce-2192ba27b931.png>
+  <p>Phần tính toán liên quan đến motor sẽ được đề cập ở mục sau.</p>
   </details>
   
   <details>
