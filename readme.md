@@ -85,14 +85,24 @@ readme
   </details>
   
   <details>
-  <summary>Chọn motor ❌</summary>
+  <summary>Chọn motor ✔️</summary>
   <img src=https://user-images.githubusercontent.com/103067723/178643994-f6fc1446-67d6-4324-bfce-2192ba27b931.png>
   <p>Dựa theo bảng hướng dẫn, vì frame ta đang dùng là frame 5 inch, nên chọn motor có kích thước 2204 - 2206; kv 2300-2700 → Chọn motor Performante 2207 - 1750KV Motor AMAXinno T-Bell </p>
   <p>Phần tính toán liên quan đến motor sẽ được đề cập ở mục sau.</p>
   </details>
   
-  <details>
-  <summary>Kiểm tra độ cứng vững ❌</summary>
-  Soon...
-  </details>
+</details>
+
+<details>
+  <summary><h3>Cánh quạt</h3></summary>
+  
+  <ul>
+      <li>Ký hiệu</li>
+      <p> L x P x B hoặc LLPP x B (Length, Pitch, số Blade)</p>
+      <li>Nhận xét chung</li>
+      <p>Cánh quạt có độ vát (pitch) thấp sẽ xoay nhanh hơn, nhưng lực đẩy tiến về phía trước yếu hơn.</p>
+      <p>Cánh quạt có độ vát (pitch) cao sẽ có nhiều lực đẩy hơn, đồng nghĩa với tốc độ cao hơn, nhưng điều khiển cũng khó hơn</p>
+      <p>Số cánh càng ít thì tốc độ quay càng nhanh, tốn ít năng lượng và hoạt động hiệu quả hơn.</p>
+      <p> </p>
+  </ul> 
 </details>
