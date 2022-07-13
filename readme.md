@@ -16,10 +16,12 @@ readme
       <li>Layout: Hybrid X (Kết hợp giữa layout H và X. Thân dài hơn -&gt; Chứa được nhiều thiết bị hơn.</li>
     </ul>
     <p>→ Bộ khung sử dụng là One Source V3</p>
+    <img src=https://user-images.githubusercontent.com/103067723/178774941-aaa1fdd0-b002-40c5-886a-adcef3b2388e.png>
+
   </details>
   
   <details>
-  <summary> Khung 3D cho GPS ❌</summary>
+  <summary> Khung 3D cho GPS ✔️</summary>
   Soon...
   </details>
   
@@ -157,6 +159,8 @@ readme
       <li>Dshot150</li>
     </ul>
     <p> 1 package của DShot gồm 16 bit: </p>
+    <img src=https://user-images.githubusercontent.com/103067723/178780958-00fbdb66-c84f-41a7-b998-ca6673fd022a.png>
+
     <ul>
       <li>11 bit cho giá trị throttle (2^11 = 2048)</li>
       <ul>
@@ -172,13 +176,23 @@ readme
       </ul>
       <li>4 bit check sum</li>
       <ul>
-        <li>crc = (value ^ (value >> 4) ^ (value >> 8)) & 0x0F<li>
-        <li>IMAGE nhớ chèn</li>
+        <li>crc = (value ^ (value >> 4) ^ (value >> 8)) & 0x0F </li>
+        <li>Ví dụ: </li>
+        <code>value  = 100000101100
+(>>4)  = 000010000010 # right shift value by 4
+(^)    = 100010101110 # XOR with value
+(>>8)  = 000000001000 # right shift value by 8
+(^)    = 100010100110 # XOR with previous XOR
+(0x0F) = 000000001111 # Mask 0x0F
+(&)    = 000000000110 # CRC
+ </code>
       </ul>
     </ul>
     <p>Thời gian của mỗi frame giống nhau, nhưng hightime của bit 0 và 1 khác nhau</p>
     <p>-> Dễ tính toán duration (= 16 x frame)</p>
     <p>-> Tính giá trị của bit = cách đo từ rising edge và dừng lại ở falling edge</p>
+    <img src = https://user-images.githubusercontent.com/103067723/178780747-682be49a-443a-447d-adf1-4db3aa03006b.png>
+
   </details>
   
 </details>
