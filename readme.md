@@ -158,8 +158,7 @@
       <li>Dshot150</li>
     </ul>
     <p> 1 package của DShot gồm 16 bit: </p>
-    <img src=https://user-images.githubusercontent.com/103067723/178782306-62bc9602-e88c-4b25-9f95-39692852441e.png>
-
+    <img src=https://user-images.githubusercontent.com/103067723/178785263-11cda29f-20d4-4c0e-a52f-82c0133f5a2f.png>
     <ul>
       <li>11 bit cho giá trị throttle (2^11 = 2048)</li>
       <ul>
@@ -175,22 +174,22 @@
       </ul>
       <li>4 bit check sum</li>
       <ul>
-        <li>crc = (value ^ (value >> 4) ^ (value >> 8)) & 0x0F </li>
+        <li>Công thức:</li> <code>crc = (value ^ (value >> 4) ^ (value >> 8)) & 0x0F</code> <br>
         <li>Ví dụ: </li>
-        <code>value  = 100000101100
-(>>4)  = 000010000010 # right shift value by 4
-(^)    = 100010101110 # XOR with value
-(>>8)  = 000000001000 # right shift value by 8
-(^)    = 100010100110 # XOR with previous XOR
-(0x0F) = 000000001111 # Mask 0x0F
-(&)    = 000000000110 # CRC
- </code>
+            <code>value  = 100000101100</code><br>
+            <code>(>>4)  = 000010000010 # right shift value by 4</code><br>
+            <code>(^)    = 100010101110 # XOR with value</code><br>
+            <code>(>>8)  = 000000001000 # right shift value by 8</code><br>
+            <code>(^)    = 100010100110 # XOR with previous XOR</code><br>
+            <code>(0x0F) = 000000001111 # Mask 0x0F</code><br>
+            <code>(&)    = 000000000110 # CRC</code>
       </ul>
     </ul>
     <p>Thời gian của mỗi frame giống nhau, nhưng hightime của bit 0 và 1 khác nhau</p>
+    <img src=https://user-images.githubusercontent.com/103067723/178785377-1d52be1a-7bb2-49df-8e1d-9ea4330f93de.png>
     <p>-> Dễ tính toán duration (= 16 x frame)</p>
     <p>-> Tính giá trị của bit = cách đo từ rising edge và dừng lại ở falling edge</p>
-    <img src = https://user-images.githubusercontent.com/103067723/178780747-682be49a-443a-447d-adf1-4db3aa03006b.png>
+    
 
   </details>
   
@@ -242,6 +241,7 @@
   
   <details> 
   <summary>Tính Pin</summary>
+    <img src=https://user-images.githubusercontent.com/103067723/178789988-b07fd9ff-5b64-476c-98be-c60b96d92548.png>
     <p>Dựa theo bảng motor, ta có thể chọn 3S/4S với mAh từ 1000-1300mA</p>
     <p>Chọn pin 4S-1550mA-120C</p>
     <p>Motor dùng 32A *4 = 132A</p>
@@ -255,20 +255,74 @@
 <details>
   <summary><h3>Tỉ số lực đẩy: Khối lượng</h3></summary>
   
-  <details>
-  <summary>Soon ✔️</summary>
-  Soon...
-  </details>
-  
-  <details>
-  <summary>Soon ✔️</summary>
-  Soon...
-  </details>
-  
-  <details>
-  <summary>Soo ❌</summary>
-  Soon...
-  </details>
+  <style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
+</style>
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-0pky">   <br>Frame   </th>
+    <th class="tg-0pky">   <br>145.1 g   </th>
+    <th class="tg-0pky">   <br><a href="https://maltarotors.com/product/tbs-source-one-v3/"><span style="color:#905">Source</span></a>   </th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-0pky">   <br>Motor   </td>
+    <td class="tg-0pky">   <br>28x4 = 112 g   </td>
+    <td class="tg-0pky">   <br>    </td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">   <br>Propeller   </td>
+    <td class="tg-0pky">   <br>4.8x4 = 19.2 g   </td>
+    <td class="tg-0pky">   <br><a href="https://fpvvietnam.com/AZURE-SFP"><span style="color:#905">Source</span></a>   </td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">   <br>ESC   </td>
+    <td class="tg-0pky">   <br>16 g   </td>
+    <td class="tg-0pky">   <br><a href="https://www.team-blacksheep.com/products/prod:vivafpv4in1_60a_bl32"><span style="color:#905">Source</span></a>   </td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">   <br>FC   </td>
+    <td class="tg-0pky">   <br>7.5 g   </td>
+    <td class="tg-0pky">   <br><a href="https://www.diatone.us/products/mb-f405-mk2-fc"><span style="color:#905">Source</span></a>   </td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">   <br>RX   </td>
+    <td class="tg-0pky">   <br>16.1 g   </td>
+    <td class="tg-0pky">   <br><a href="https://www.amazon.com/FS-iA6B-Receiver-Antenna-Compatible-FS-GT2E/dp/B07D35C6MQ"><span style="color:#905">Source</span></a>   </td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">   <br>Pi4   </td>
+    <td class="tg-0pky">   <br>46 g   </td>
+    <td class="tg-0pky">   <br>    </td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">   <br>Landing gear   </td>
+    <td class="tg-0pky">   <br>    </td>
+    <td class="tg-0pky">   <br>    </td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">   <br>    </td>
+    <td class="tg-0pky">   <br>    </td>
+    <td class="tg-0pky">   <br>    </td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">   <br>Total   </td>
+    <td class="tg-0pky">   <br>About 400 g   </td>
+    <td class="tg-0pky"></td>
+  </tr>
+</tbody>
+</table>
+  <p>Để drone có thể bay ổn định, tỉ số lực nâng/ cân nặng >=2 -> Lực nâng tối thiểu: 0.8 kg</p>
+  <p>Lực nâng của motor theo công thức toán:</p>
+  <img src=https://user-images.githubusercontent.com/103067723/178790912-6ce86cb1-1486-4fca-9528-912246508392.png>
+  <p>Lực nâng của motor theo datasheet: 1.527*4 = 6.108 (kg) 
 </details>
 
 <details>
