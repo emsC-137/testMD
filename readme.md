@@ -162,7 +162,7 @@ readme
       <ul>
         <li>0 là disarm</li>
         <li>1-47 là special command</li>
-        <li>command 0-36 chỉchạy khi motor ko xoay</li>
+        <li>Command 0-36 chỉ chạy khi motor ko xoay</li>
         <li>48-2048: giá trị throttle</li>
       </ul>
       <li>1 bit telemetry request</li>
@@ -233,8 +233,8 @@ readme
     <p>Chọn pin 4S-1550mA-120C</p>
     <p>Motor dùng 32A *4 = 132A</p>
     <p>132/1550 = 85.16C</p>
-    <p>-> số C phải lớn hơn 85.16, pin hiện tại C=120</p>
-    <p>-> pin đã chọn phù hợp</p>
+    <p>-> Số C phải lớn hơn 85.16, pin hiện tại C=120</p>
+    <p>-> Pin đã chọn phù hợp</p>
   </details>
   
 </details>
