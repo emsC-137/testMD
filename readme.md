@@ -7,7 +7,7 @@ readme
 <details>
   <summary><h3>Frame</h3></summary>
   <details>
-  <summary> &#10003; Frame chính</summary>
+  <summary> Frame chính ✔️</summary>
 <p>  <a href="https://dronenodes.com/drone-frame-racing-freestyle/">Thông số của khung</a></p>
 <ul>
 <li>Kích thước khung: 5 inch (vì được sử dụng rộng rãi và phù hợp cho nhiều mục đích khác nhau.</li>
