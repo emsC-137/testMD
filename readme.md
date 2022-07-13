@@ -21,7 +21,7 @@
   
   <details>
   <summary> Khung 3D cho GPS ✔️</summary>
-  Soon...
+  <p>Tham khảo từ <a href="https://www.thingiverse.com/thing:4813320">đây</a></p>
   </details>
   
   <details>
