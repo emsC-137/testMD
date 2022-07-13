@@ -7,7 +7,7 @@ readme
 <details>
   <summary><h3>Frame</h3></summary>
   <details>
-  <summary> <p>&#10003; Frame chính</p></summary>
+  <summary> &#10003; Frame chính</summary>
   [Thông số của khung](https://dronenodes.com/drone-frame-racing-freestyle/)
 - Kích thước khung: 5 inch (vì được sử dụng rộng rãi và phù hợp cho nhiều mục đích khác nhau.
 - Chất liệu: Carbon (Nhẹ và cứng)
@@ -16,7 +16,8 @@ readme
  
 → Bộ khung sử dụng là One Source V3
 
-</details>
+  </details>
+  
 </details>
 
 
