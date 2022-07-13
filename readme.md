@@ -41,7 +41,8 @@
   
   <details>
   <summary>Thiết kế</summary>
-  Soon...
+  <img src=https://user-images.githubusercontent.com/103067723/178806189-90544d5b-d69c-4258-a1de-c601da0d4497.png>
+
   </details>
   
   <details>
@@ -169,7 +170,7 @@
       </ul>
       <li>1 bit telemetry request</li>
       <ul>
-        <li>Dùng để yêu cầu 1 thông tin nào đótrảvề cho FC (vd tốcđộ xoay, nhiệtđộ, dòng, áp,..)</li>
+        <li>Dùng để yêu cầu 1 thông tin nào đó trả về cho FC (vd tốc độ xoay, nhiệt độ, dòng, áp,..)</li>
         <li>Command số 42-47 là dành cho telemetry</li>
       </ul>
       <li>4 bit check sum</li>
