@@ -2,6 +2,10 @@
 ## TLDR:
 
 ## Next:
+- Tìm hiểu các thư viện lập trình drone
+- Chờ GPS về để set up
+- Tập bay mô phỏng
+- Tune PID
 ## Danh sách việc:
 <details>
   <summary><h3>Frame</h3></summary>
